@@ -18,9 +18,9 @@ export default {
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary = {
   args: {
-    "title": "Dummy Title",
-    "text": "Dummy Text",
-    "imageSrc": "https://via.placeholder.com/150",
+    'title': 'Dummy Title',
+    'text': 'Dummy Text',
+    'imageSrc': 'https://via.placeholder.com/150',
   },
 };
 

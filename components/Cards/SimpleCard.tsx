@@ -1,6 +1,6 @@
-'use client'
+'use client';
 import React from 'react';
-import { Card } from '@digdir/designsystemet-react'
+import { Card } from '@digdir/designsystemet-react';
 import '@digdir/designsystemet-theme';
 import '@digdir/designsystemet-css';
 
@@ -18,5 +18,5 @@ export default function SimpleCard(props : SimpleCardProps) {
       <Card.Header>{props.title}</Card.Header>
       <Card.Content>{props.text}</Card.Content>
     </Card>
-  )
+  );
 }

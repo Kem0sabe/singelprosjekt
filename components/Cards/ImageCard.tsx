@@ -1,6 +1,6 @@
-'use client'
-import { Card } from '@digdir/designsystemet-react'
-import Image from 'next/image'
+'use client';
+import { Card } from '@digdir/designsystemet-react';
+import Image from 'next/image';
 import '@digdir/designsystemet-theme';
 import '@digdir/designsystemet-css';
 
@@ -19,10 +19,10 @@ export default function ImageCard(props : ImageCardProps) {
       <Card.Content>{props.text}</Card.Content>
       <Card.Media>
         <Image src={props.imageSrc} 
-        width = {300} height = {200} 
-        alt="Her skulle det vært et fint lite bilde av et søtt dyr elns" />
+          width = {300} height = {200} 
+          alt="Her skulle det vært et fint lite bilde av et søtt dyr elns" />
       </Card.Media>
       <Card.Footer>Henter fra: {props.imageSrc}</Card.Footer>
     </Card>
-  )
+  );
 }
