@@ -6,14 +6,14 @@ import Week from '../components/Week';
 import styles from '../styles/custom.module.css';
 import Head from 'next/head';
 const myCardAttributes : SimpleCardProps= {
-  title: 'My Card Title',
-  text: 'This is the content',
+  title: 'Static Card',
+  text: 'This is static content',
 };
 
   
 const myImageCardAttributes : ImageCardProps = {
-  title: 'My Image Card',
-  text: 'This is the content',
+  title: 'Static Image Card',
+  text: 'This is just a static card with an image from the internet',
   imageSrc: 'https://picsum.photos/300/200',
 
 };
@@ -35,9 +35,8 @@ export default function Home() {
           Testidi test test
         </h1>
         <SimpleCard {...myCardAttributes}/>
-        
-        <Week></Week>
-
+        <br></br>
+        <ImageCard {...myImageCardAttributes}/>
       </main>
 
 
